@@ -1,11 +1,9 @@
 {
-  "name": "@keystonejs/example-projects-starter",
-  "description": "An example KeystoneJS project with a User list and Authentication.",
+  "name": "keystone-5-blog",
+  "description": "Keystone 5 backend dockerized",
   "private": true,
-  "version": "6.0.4",
-  "author": "The KeystoneJS Development Team",
-  "repository": "https://github.com/keystonejs/keystone-5/tree/main/packages/create-keystone-5-app/example-projects/starter",
-  "homepage": "https://github.com/keystonejs/keystone-5",
+  "version": "1.0.0",
+  "author": "Gediminas Survila",
   "license": "MIT",
   "engines": {
     "node": ">=10.0.0"
