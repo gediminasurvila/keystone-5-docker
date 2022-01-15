@@ -4,9 +4,11 @@ ENV NODE_ENV=production
 
 WORKDIR /app
 
-COPY . .
+COPY package*.json ./
 
-RUN npm install
+RUN NODE_ENV=production npm ci --only=production
+
+COPY . .
 
 RUN npm run build
 
